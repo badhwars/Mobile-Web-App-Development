@@ -1,0 +1,44 @@
+/* Canada CSS */
+
+.namestyle {color: rgba(102, 240, 10, 0.664);text-align: center;
+   font-weight: bold; margin-bottom: 2px;}
+
+a {text-decoration: none; color: white;}
+
+/* removes automatic indent */
+ul {margin: 0; padding: 0;}
+
+li {border: thin solid black;background: rgb(0, 225, 255); 
+text-align: center; 
+padding: 10px; margin: 0px 10px 5px 10px;
+list-style-type: none; }
+#test{
+   background-color: black;
+   color: white;
+   background: rgba(0,0,0,0.3)
+
+}
+
+.bhead {color: white; background:rgb(0, 225, 255); 
+text-align:center; font-style: italic; 
+margin: 5px 10px 5px 10px; padding: 2px;}
+#bg{
+   background-repeat: no-repeat;
+   background-size:cover;
+   background-blend-mode: lighten;
+}
+.bstyle {background:white; color: rgb(0, 225, 255); 
+border-radius: 10px; padding: 0px 15px 0px 15px; 
+margin: 0px 10px 5px 10px; border: thin solid rgb(0, 225, 255); }
+
+@media screen and (orientation: landscape) {
+.namestyle {font-size: 1em;}
+.bhead {font-size: 1em;}
+li {font-size: 1em;}
+}
+
+@media screen and (orientation: portrait) {
+.namestyle {font-size: 1.5em;}
+.bhead {font-size: 1.25em;}
+li {font-size: 1.5em;}
+}
